@@ -53,9 +53,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Source\FileSystem %28net451-win81-wpa81%29\FileSystem %28net451-win81-wpa81%29.csproj">
-      <Project>{1dad9d76-90e4-433d-af93-ae2a942890a4}</Project>
-      <Name>FileSystem %28net451-win81-wpa81%29</Name>
+    <ProjectReference Include="..\..\Source\FileSystem %28net451%29\FileSystem %28net451%29.csproj">
+      <Project>{7be5f769-393a-4de4-9444-3f805ddeeb3d}</Project>
+      <Name>FileSystem %28net451%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Source\FileSystem.Core\FileSystem.Core.csproj">
+      <Project>{25c6f3c7-59a1-4686-8b59-fa568316746f}</Project>
+      <Name>FileSystem.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
