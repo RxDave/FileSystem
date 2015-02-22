@@ -50,7 +50,7 @@ namespace FileSystem
     /// Copies the file to the specified location.
     /// </summary>
     /// <param name="destination">The folder to which the file will be copied.</param>
-    /// <param name="replace">Indicates whether an existing file should be replaced.</param>
+    /// <param name="canReplace">Indicates whether an existing file should be replaced.</param>
     /// <returns>A <see cref="Task{T}"/> containing an <see cref="IFile"/> object representing the copied file in the specified location.</returns>
     Task<IFile> CopyAsync(IFolder destination, bool canReplace);
 
@@ -59,7 +59,7 @@ namespace FileSystem
     /// </summary>
     /// <param name="destination">The folder to which the file will be copied.</param>
     /// <param name="newName">The name of the file at the copied location.</param>
-    /// <param name="replace">Indicates whether an existing file should be replaced.</param>
+    /// <param name="canReplace">Indicates whether an existing file should be replaced.</param>
     /// <returns>A <see cref="Task{T}"/> containing an <see cref="IFile"/> object representing the copied file in the specified location and with the specified name.</returns>
     Task<IFile> CopyAsync(IFolder destination, string newName, bool canReplace);
 
@@ -67,7 +67,7 @@ namespace FileSystem
     /// Moves the file to the specified location.
     /// </summary>
     /// <param name="destination">The folder to which the file will be moved.</param>
-    /// <param name="replace">Indicates whether an existing file should be replaced.</param>
+    /// <param name="canReplace">Indicates whether an existing file should be replaced.</param>
     /// <returns>A <see cref="Task{T}"/> containing an <see cref="IFile"/> object representing the moved file in the specified location.</returns>
     Task<IFile> MoveAsync(IFolder destination, bool canReplace);
 
@@ -76,7 +76,7 @@ namespace FileSystem
     /// </summary>
     /// <param name="destination">The folder to which the file will be moved.</param>
     /// <param name="newName">The name of the file at the new location.</param>
-    /// <param name="replace">Indicates whether an existing file should be replaced.</param>
+    /// <param name="canReplace">Indicates whether an existing file should be replaced.</param>
     /// <returns>A <see cref="Task{T}"/> containing an <see cref="IFile"/> object representing the moved file in the specified location and with the specified name.</returns>
     Task<IFile> MoveAsync(IFolder destination, string newName, bool canReplace);
 

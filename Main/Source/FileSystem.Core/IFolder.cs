@@ -52,7 +52,7 @@ namespace FileSystem
     /// Creates or replaces a file with the specified <paramref name="name"/>.
     /// </summary>
     /// <param name="name">Name of the file to be created or replaced.</param>
-    /// <param name="replace">Indicates whether an existing file of the same <paramref name="name"/> must be replaced.</param>
+    /// <param name="canReplace">Indicates whether an existing file of the same <paramref name="name"/> must be replaced.</param>
     /// <returns>A <see cref="Task{T}"/> containing an <see cref="IFile"/> object representing the created or replaced file.</returns>
     Task<IFile> CreateFileAsync(string name, bool canReplace);
 
@@ -93,7 +93,7 @@ namespace FileSystem
     /// Creates or replaces a subfolder with the specified <paramref name="name"/>.
     /// </summary>
     /// <param name="name">Name of the subfolder to be created or replaced.</param>
-    /// <param name="replace">Indicates whether an existing subfolder of the same <paramref name="name"/> must be replaced.</param>
+    /// <param name="canReplace">Indicates whether an existing subfolder of the same <paramref name="name"/> must be replaced.</param>
     /// <returns>A <see cref="Task{T}"/> containing an <see cref="IFolder"/> object representing the created or replaced subfolder.</returns>
     Task<IFolder> CreateFolderAsync(string name, bool canReplace);
 
