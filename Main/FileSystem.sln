@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem (net451-win81-wpa81)", "Source\FileSystem (net451-win81-wpa81)\FileSystem (net451-win81-wpa81).csproj", "{1DAD9D76-90E4-433D-AF93-AE2A942890A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{E17C9A4A-2739-46B6-849B-31100482F3B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{8410E8A2-22B1-40CE-AF74-7EDAD5EB25CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{E0D57268-582D-46A6-A5F8-95B4B4EF4A21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{350EA835-FD56-46D7-A1BF-127B79CE9AB6}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Properties\AssemblyInfoShared.cs = Build\Properties\AssemblyInfoShared.cs
+		Build\Properties\CodeAnalysis.ruleset = Build\Properties\CodeAnalysis.ruleset
+		Build\Properties\CodeAnalysisDictionary.xml = Build\Properties\CodeAnalysisDictionary.xml
+		Build\Properties\CodeAnalysisDictionary.xsd = Build\Properties\CodeAnalysisDictionary.xsd
+		FileSystem.vssettings = FileSystem.vssettings
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2FDCA3B5-82DC-49C8-A990-32399687ED0D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem.Labs", "Testing\FileSystem.Labs\FileSystem.Labs.csproj", "{762DB33C-543E-4596-8789-E2DF09CDF908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem.UnitTests", "Testing\FileSystem.UnitTests\FileSystem.UnitTests.csproj", "{73F9EB54-C6EF-42DF-802D-CEE62C66180B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DAD9D76-90E4-433D-AF93-AE2A942890A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAD9D76-90E4-433D-AF93-AE2A942890A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAD9D76-90E4-433D-AF93-AE2A942890A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAD9D76-90E4-433D-AF93-AE2A942890A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762DB33C-543E-4596-8789-E2DF09CDF908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762DB33C-543E-4596-8789-E2DF09CDF908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762DB33C-543E-4596-8789-E2DF09CDF908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762DB33C-543E-4596-8789-E2DF09CDF908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F9EB54-C6EF-42DF-802D-CEE62C66180B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F9EB54-C6EF-42DF-802D-CEE62C66180B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F9EB54-C6EF-42DF-802D-CEE62C66180B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F9EB54-C6EF-42DF-802D-CEE62C66180B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DAD9D76-90E4-433D-AF93-AE2A942890A4} = {E17C9A4A-2739-46B6-849B-31100482F3B5}
+		{350EA835-FD56-46D7-A1BF-127B79CE9AB6} = {E0D57268-582D-46A6-A5F8-95B4B4EF4A21}
+		{2FDCA3B5-82DC-49C8-A990-32399687ED0D} = {E0D57268-582D-46A6-A5F8-95B4B4EF4A21}
+		{762DB33C-543E-4596-8789-E2DF09CDF908} = {8410E8A2-22B1-40CE-AF74-7EDAD5EB25CB}
+		{73F9EB54-C6EF-42DF-802D-CEE62C66180B} = {8410E8A2-22B1-40CE-AF74-7EDAD5EB25CB}
+	EndGlobalSection
+EndGlobal
