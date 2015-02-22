@@ -5,6 +5,9 @@ using System.Resources;
 
 [assembly: CLSCompliant(true)]
 
+[assembly: AssemblyTitle("Universal File System")]
+[assembly: AssemblyDescription("File system abstraction with portable class library flavors for all of the standard .NET platform target combinations.")]
+
 [assembly: NeutralResourcesLanguage("en-US")]
 [assembly: AssemblyCulture("")]
 
@@ -15,17 +18,12 @@ using System.Resources;
 [assembly: AssemblyCopyright("Copyright © 2015 Dave Sexton")]
 [assembly: AssemblyTrademark("")]
 
-[assembly: AssemblyVersion(AssemblyConstants.Version + ".*")]
+[assembly: AssemblyVersion(AssemblyConstants.Version + ".0")]
 [assembly: AssemblyFileVersion(AssemblyConstants.Version + ".0")]
 
 [assembly: SuppressMessage("Microsoft.Usage", "CA2243:AttributeStringLiteralsShouldParseCorrectly", Justification = "Required for NuGet semantic versioning.")]
 [assembly: AssemblyInformationalVersion(AssemblyConstants.Version + AssemblyConstants.PrereleaseVersion)]
 
-// Copy this file into your solution and link it in every project.  Then move the following class into
-// every project's AssemblyInfo.cs file and delete it from this file.
-//
-// Alternatively, link this file in every project but only move the following class to one of the projects.
-// Then change its accessibility to public so that the constants are automatically shared by every project.
 [SuppressMessage("Microsoft.Design", "CA1050:DeclareTypesInNamespaces", Justification = "Referenced by assembly-level attributes only.")]
 internal static class AssemblyConstants
 {
