@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem.Core", "Source\F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem (net451)", "Source\FileSystem (net451)\FileSystem (net451).csproj", "{7BE5F769-393A-4DE4-9444-3F805DDEEB3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem (net40)", "Source\FileSystem (net40)\FileSystem (net40).csproj", "{CFE86CEE-8B7B-4415-9E52-E702C60FDBC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{7BE5F769-393A-4DE4-9444-3F805DDEEB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BE5F769-393A-4DE4-9444-3F805DDEEB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BE5F769-393A-4DE4-9444-3F805DDEEB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE86CEE-8B7B-4415-9E52-E702C60FDBC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE86CEE-8B7B-4415-9E52-E702C60FDBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE86CEE-8B7B-4415-9E52-E702C60FDBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE86CEE-8B7B-4415-9E52-E702C60FDBC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,5 +83,6 @@ Global
 		{C3617D49-C7A8-4E2A-AA67-009F39410BEF} = {E17C9A4A-2739-46B6-849B-31100482F3B5}
 		{25C6F3C7-59A1-4686-8B59-FA568316746F} = {E17C9A4A-2739-46B6-849B-31100482F3B5}
 		{7BE5F769-393A-4DE4-9444-3F805DDEEB3D} = {E17C9A4A-2739-46B6-849B-31100482F3B5}
+		{CFE86CEE-8B7B-4415-9E52-E702C60FDBC6} = {E17C9A4A-2739-46B6-849B-31100482F3B5}
 	EndGlobalSection
 EndGlobal
