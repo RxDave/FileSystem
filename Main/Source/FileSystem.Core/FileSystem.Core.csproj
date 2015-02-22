@@ -122,6 +122,7 @@
     <CodeContractsAnalysisWarningLevel>0</CodeContractsAnalysisWarningLevel>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRuleSet>..\..\Build\Properties\CodeAnalysis.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\Release\FileSystem.Core.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>True</SignAssembly>

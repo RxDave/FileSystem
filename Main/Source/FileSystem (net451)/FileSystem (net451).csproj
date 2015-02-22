@@ -119,6 +119,7 @@
     <CodeContractsRuntimeCheckingLevel>Preconditions</CodeContractsRuntimeCheckingLevel>
     <CodeContractsReferenceAssembly>Build</CodeContractsReferenceAssembly>
     <CodeContractsAnalysisWarningLevel>0</CodeContractsAnalysisWarningLevel>
+    <DocumentationFile>bin\Release\FileSystem.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>True</SignAssembly>
