@@ -10,6 +10,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{8410E8A2-22B1-40CE-AF74-7EDAD5EB25CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{E0D57268-582D-46A6-A5F8-95B4B4EF4A21}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{350EA835-FD56-46D7-A1BF-127B79CE9AB6}"
 	ProjectSection(SolutionItems) = preProject

@@ -52,6 +52,12 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Source\FileSystem %28net451-win81-wpa81%29\FileSystem %28net451-win81-wpa81%29.csproj">
+      <Project>{1dad9d76-90e4-433d-af93-ae2a942890a4}</Project>
+      <Name>FileSystem %28net451-win81-wpa81%29</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
